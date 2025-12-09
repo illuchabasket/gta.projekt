@@ -1,0 +1,121 @@
+body
+{
+    font-size: 1.2px;
+    background-color:#64759D ;
+    color: black; 
+     margin: 0;
+    padding: 0;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+    
+    
+}
+        a:link , a:visited , a:active , a:hover
+            {
+             text-decoration: underline;
+            font-weight: normal;
+            color:white;
+            font-size: 12px;   
+            }
+             a:active , a:hover
+            {
+                color:white;
+            }
+            a.menu
+            {
+                display:block;
+                padding: 3px;
+                
+                text-align: center;
+                color:white;
+                text-decoration: none;
+                font-weight: bold;  
+                font-size: 50px;
+            }
+            a.menu:link , a.menu:visited
+            {
+            text-decoration: none;
+                font-weight: bold;
+                font-size: 20px;
+            }
+            a.menu:active , a.menu:hover
+            {
+                color: white;
+                font-weight: bold;
+                background-color: black;
+              
+            }
+           #all {
+               width: 100%;
+               text-align: center;
+               height: fill;
+               color: black;
+               max-width: fill;
+               max-height: fill;
+               background-color:#64759D;
+            }
+            #title
+            {
+                height: auto;
+                padding: 20px;
+                border-bottom: 1px solid white;
+                color: white;
+                font-size: 40px;
+                background-image: url("GTA-Skyline.jpg.webp");
+                background-repeat: no-repeat;
+                background-size:cover;
+                background-position:center;
+                text-align: center;
+                width:fill;
+                min-height: 150px;
+               
+            }
+            #left 
+            {
+                border: 1px solid white;
+                background-color:#E67451;
+                width: 20%;
+                height: fill;
+                float: left;
+                padding: 10px;
+                color: black;
+                box-sizing: border-box;
+                font-size: 30px;
+            }
+            
+            
+            #content
+            {
+                flex: 1;
+                text-align: justify;
+                width: 80%;
+                float: right;
+                height: 560px;
+                color:white;
+                box-sizing: border-box;
+                font-size: 25px;
+                background-color: #64759D;
+               
+            
+            }
+            #main
+            {
+           display: flex;
+           flex-direction: row;
+           gap: 20px;
+           padding: 20px;
+           box-sizing: border-box;
+           width:100%;
+           background-color:#64759D ;
+           
+            }
+           img
+           { 
+               width:60%;
+               height:20%;
+           }
+            
